@@ -1,0 +1,40 @@
+{
+	"name": "ArticleCutting(文章剪影)",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"description": "适用于知乎、掘金、CSDN等网站，将文章内容转成markdown并导出。",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"action": {
+		"default_icon": "icon16.png",
+		"default_popup": "./src/popup/index.html"
+	},
+	"background": {
+		"service_worker": "./assets/background.js"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"./assets/content-script.js"
+			],
+			"run_at": "document_start"
+		}
+	],
+	"permissions": [
+		"storage",
+		"notifications",
+		"contextMenus",
+		"tabs",
+		"clipboardWrite"
+	],
+	"options_ui": {
+		"page": "./src/options.html",
+		"open_in_tab": true
+	}
+}

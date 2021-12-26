@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "styleticon"; /* Project id 3064024 */
+  src: url('iconfont.woff2?t=1640523149975') format('woff2'),
+       url('iconfont.woff?t=1640523149975') format('woff'),
+       url('iconfont.ttf?t=1640523149975') format('truetype');
+}
+
+.styleticon {
+  font-family: "styleticon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-test1:before {
+  content: "\e633";
+}
+
+.icon-icon-test2:before {
+  content: "\e634";
+}
+
+.icon-icon-test3:before {
+  content: "\e63f";
+}
+
+.icon-icon-test4:before {
+  content: "\e655";
+}
+
+.icon-icon-test5:before {
+  content: "\e656";
+}
+
+.icon-setting:before {
+  content: "\e604";
+}
+
+.icon-icon-github:before {
+  content: "\e65e";
+}
+

@@ -1,0 +1,73 @@
+<svg width="240" height="84" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="86" width="242" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_11" class="icon-text-wrapper icon-svg-group iconsvg" fill="#d4003b">
+   <g id="svg_12" class="iconsvg-imagesvg">
+    <g id="svg_13">
+     <rect id="svg_14" class="image-rect" height="75.9965" width="60" y="6.00175" x="6" stroke-width="2" fill-opacity="0" fill="#d4003b"/>
+     <svg id="svg_15" class="image-svg-svg primary" height="75.9965" width="60" y="6.00175" x="6">
+      <svg id="svg_16" viewBox="0.004270657896995544 0.0005207061767578125 103.7257308959961 131.37948608398438">
+       <defs>
+        <linearGradient y2="0.71823" x2="0.65227" y1="0.08169" x1="-0.09164" id="svg_9">
+         <stop stop-color="#ff9c3f" offset="0"/>
+         <stop stop-color="#ff5a48" offset="0.3"/>
+         <stop stop-color="#d4003b" offset="0.67"/>
+         <stop stop-color="#4e0000" offset="1"/>
+        </linearGradient>
+        <linearGradient y2="0.16101" x2="0.86069" y1="0.64491" x1="0.0225" id="svg_8">
+         <stop stop-color="#ff9c3f" offset="0"/>
+         <stop stop-color="#ff5a48" offset="0.3"/>
+         <stop stop-color="#d4003b" offset="0.67"/>
+         <stop stop-color="#4e0000" offset="1"/>
+        </linearGradient>
+        <linearGradient y2="0.49221" x2="0.11816" y1="0.50584" x1="1.19021" id="svg_7">
+         <stop stop-color="#ff9c3f" offset="0"/>
+         <stop stop-color="#ff5a48" offset="0.3"/>
+         <stop stop-color="#d4003b" offset="0.67"/>
+         <stop stop-color="#4e0000" offset="1"/>
+        </linearGradient>
+        <linearGradient y2="0.50248" x2="0.00241" y1="0.49637" x1="1.16889" id="svg_6">
+         <stop stop-color="#ff9c3f" offset="0"/>
+         <stop stop-color="#ff5a48" offset="0.3"/>
+         <stop stop-color="#d4003b" offset="0.67"/>
+         <stop stop-color="#4e0000" offset="1"/>
+        </linearGradient>
+       </defs>
+       <g id="svg_17">
+        <g id="svg_18" fill-rule="evenodd">
+         <path id="svg_19" fill="url(#svg_9)" d="m37.31,45.54c-25.9,-5.92 17.78,-47.22 57.55,2.25c-26.99,-45.35 -59.49,-51.87 -92.86,-29.85c2.21,18.34 12.33,28.36 35.31,27.6z"/>
+         <path id="svg_20" fill="url(#svg_8)" d="m60.69,75.36c20.3,5 -4.26,25 -11.24,30.25c-24.9,-8.55 -44,-23.28 -48.33,-44.41c-0.55,35.88 16.37,50.28 49.39,70.18c14.4,-7.38 27.18,-15.75 36.49,-26.79c14.73,-18.21 -10.56,-30.95 -26.31,-29.23z"/>
+         <path id="svg_21" fill="url(#svg_7)" d="m94.86,47.79a74.55,74.55 0 0 1 8.87,13.83q-0.47,-22.27 -1.48,-41.14c-34.16,-28.67 -76.54,-25.09 -100.25,-2.54q50.08,-31.35 92.86,29.85z"/>
+         <path id="svg_22" fill="url(#svg_6)" d="m59.94,75.2c0.24,0 0.49,0.09 0.75,0.16c13.36,2.73 38.66,12.64 26.31,29.23a64.79,64.79 0 0 0 14.49,-30.59c2.66,-14.26 -12.45,-20.57 -24,-23.24c-12.52,-2 -28.36,-2.57 -40.13,-5.26c-19,-3.37 -28.65,-11 -35.35,-27.6q-1.41,9.67 -1.84,18.26c-0.53,10.74 -0.17,16.09 6.93,25.04c12.27,15.36 31.32,10.57 51.28,13.73l0.24,0l1.32,0.27z"/>
+        </g>
+       </g>
+      </svg>
+     </svg>
+     <!---->
+    </g>
+   </g>
+   <g id="svg_23">
+    <g id="svg_24" class="tp-name iconsvg-namesvg">
+     <g id="svg_25" transform="translate(55.290000915527344,87.00174713134766) scale(1) ">
+      <g id="svg_26">
+       <path id="svg_27" d="m49.51,-58.15175l-7.2,0l0,-3.6l-17.4,0l0,12l18.6,0l6,6l0,12l-6,6l-19.8,0l-6,-6l0,-3.6l7.2,0l0,3.6l17.4,0l0,-12l-18.6,0l-6,-6l0,-12l6,-6l19.8,0l6,6l0,3.6zm16.68,26.4l10.74,0l-1.8,6l-16.14,0l0,-24l-7.02,0l0,-6l7.02,0l0,-4.14l7.2,0l0,4.14l9.24,0l0,6l-9.24,0l0,18zm35.52,-24l7.2,0l-18.54,37.5l-7.2,0l7.5,-15.18l-13.14,-22.32l7.8,0l8.88,15.18l7.5,-15.18zm10.8,30l0,-42l7.2,0l0,42l-7.2,0zm33.6,-11.4l0,-12.6l-15.6,0l0,6.6l13.8,0l0,6l-13.8,0l0,5.4l21.36,0l-1.8,6l-20.76,0l-6,-6l0,-18l7.2,-6l0,0.24l0.24,-0.24l17.16,0l5.4,6l0,6.6l-5.4,6l-1.8,0zm23.28,5.4l10.74,0l-1.8,6l-16.14,0l0,-24l-7.02,0l0,-6l7.02,0l0,-4.14l7.2,0l0,4.14l9.24,0l0,6l-9.24,0l0,18z"/>
+      </g>
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+     </g>
+    </g>
+    <!---->
+   </g>
+  </g>
+ </g>
+</svg>

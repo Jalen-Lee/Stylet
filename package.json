@@ -1,0 +1,40 @@
+{
+  "name": "vite-learn-tutorial",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "dev:popup": "nodemon --exec \"yarn build\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.171",
+    "@types/turndown": "^5.0.1",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "sass": "^1.45.1",
+    "unplugin-auto-import": "^0.5.4",
+    "unplugin-vue-components": "^0.17.9",
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "element-plus": "^1.2.0-beta.6",
+    "reset-css": "^5.0.1",
+    "turndown": "^7.1.1",
+    "turndown-plugin-gfm": "^1.0.2",
+    "vue": "^3.2.26"
+  },
+  "nodemonConfig": {
+    "ext": "*",
+    "verbose": true,
+    "legacyWatch": true,
+    "delay": 2000,
+    "ignore": [
+      "dist/*",
+      "node_modules/*"
+    ]
+  }
+}
