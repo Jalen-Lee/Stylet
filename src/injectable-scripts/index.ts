@@ -1,5 +1,5 @@
 import {getSelectionAsHTML, writeToClipboard, fileExport, htmlToMd} from "../utils/content";
-import OverlayBox from "../utils/overlayBox";
+import MarqueeTool from "../utils/MarqueeTool";
 
 
 console.log("扩展进程与网页连接建立，注入脚本已加载")
@@ -29,7 +29,7 @@ chrome.runtime.onMessage.addListener(
             console.log("复制选中内容为markdown", markdownContent)
             writeToClipboard(markdownContent)
         } else if(id === 'capture'){
-            OverlayBox.init()
+            MarqueeTool.init()
         }
         sendResponse({
             status: 'ok',

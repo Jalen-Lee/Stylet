@@ -56,9 +56,10 @@ export default defineComponent({
   },
   methods: {
     async handleCapture(e: MouseEvent) {
-      // let response = await sendTabsMessage({
-      //   id:'capture'
-      // })
+      let currentTab = await this.getCurrent()
+      chrome.tabs.sendMessage(currentTab.id!, {id: "capture"}, function (response: { status: any; }) {
+        console.log(response.status);
+      });
     },
     async handleDownload(e: MouseEvent) {
       let currentTab = await this.getCurrent()
