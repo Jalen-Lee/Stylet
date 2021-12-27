@@ -42,6 +42,7 @@ export default class MarqueeTool {
     private currTargetEl: HTMLElement | undefined
 
     constructor() {
+        console.log("创建了对象")
         if (!MarqueeTool.instance) {
             MarqueeTool.instance = this
         }
@@ -56,10 +57,7 @@ export default class MarqueeTool {
             document.body.addEventListener('mousemove', this.instance!.glide);
             document.body.addEventListener('mouseover', this.instance!.show);
             document.body.addEventListener('mouseleave', this.instance!.hide);
-            document.body.addEventListener('click', (e) => {
-                console.log("click",e.target);
-                this.instance && this.destroy()
-            })
+            document.body.addEventListener('click', this.instance!.selected)
         }
     }
 
@@ -67,11 +65,19 @@ export default class MarqueeTool {
         document.body.removeEventListener('mousemove', this.instance!.glide);
         document.body.removeEventListener('mouseover', this.instance!.show);
         document.body.removeEventListener('mouseleave', this.instance!.hide);
+        document.body.removeEventListener('click', this.instance!.selected);
         this.instance!.overlayElem!.remove()
         this.instance!.tooltipElem!.remove()
         this.instance!.overlayElem = undefined
         this.instance!.tooltipElem = undefined
         this.instance = null
+    }
+
+    private selected = (e: MouseEvent) => {
+        if(e.target === this.currTargetEl){
+            console.log("click",e.target);
+            MarqueeTool.destroy()
+        }
     }
 
     private hide = (e: MouseEvent) => {
